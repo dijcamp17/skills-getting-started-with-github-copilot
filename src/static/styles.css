@@ -92,6 +92,24 @@ section h3 {
   list-style-position: inside; /* Ensure bullets are inside the padding */
 }
 
+.activity-card .participant-list {
+  margin-top: 10px;
+  padding: 10px 20px; /* Add padding inside the background */
+  list-style-type: disc;
+  color: #444;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  overflow: hidden; /* Ensure bullets stay inside the container */
+}
+
+.activity-card .participant-list li {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+  list-style-position: inside; /* Ensure bullets are inside the padding */
+}
+
 .form-group {
   margin-bottom: 15px;
 }
